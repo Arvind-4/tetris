@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tetris"
+version = "0.0.1"
+description = "A tetris game in python using pygame"
+authors = ["Arvind A <pingarvindforquestions@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "2.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
